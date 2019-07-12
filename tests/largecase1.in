@@ -1,0 +1,25 @@
+set a 1 2 3 4 5
+set b 9 9 9 9 9
+get a
+get b
+snapshot
+set a 1 2
+snapshot
+checkout 1
+diff a b
+inter a b
+list snapshots
+drop 1
+list snapshots
+checkout 2
+diff a b
+cartprod a b
+set d 1 4 7 8 3 0 0
+cartprod a b d
+cartprod d a b
+set a 1 2 3 4 5
+min a
+max a
+sum a
+len a
+BYE

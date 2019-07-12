@@ -1,0 +1,54 @@
+> ok
+
+> ok
+
+> ok
+
+> c
+b
+a
+
+> c []
+b []
+a []
+
+> saved as snapshot 1
+
+> ok
+
+> saved as snapshot 2
+
+> ok
+
+> saved as snapshot 3
+
+> ok
+
+> 1
+
+> 1
+
+> []
+
+> ok
+
+> 1
+
+> [2]
+
+> 3
+2
+1
+
+> ok
+
+> ok
+
+> c
+b
+
+> ok
+
+> 1
+
+> bye

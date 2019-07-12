@@ -1,0 +1,24 @@
+set a
+set b
+set c
+list keys
+list entries
+snapshot
+set d
+snapshot
+del d
+snapshot
+set a 1
+pick a 1
+pluck a 1
+get a
+set a 1 2
+pop a
+get a
+list snapshots
+purge a
+checkout 1
+list keys
+rollback 1
+list snapshots
+bye
